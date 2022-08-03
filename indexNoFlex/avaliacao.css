@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&display=swap');
+
+* {
+	margin: 0;
+}
+
+header {
+	height: 6em;
+	width: 100%;
+	background-image: url("imgs/imgHeader.png");
+	font-family: 'Mochiy Pop One', sans-serif;
+	color: white;
+	font-size: 3em;
+	text-align: center;
+}
+
+main {
+	height: 110em;
+}
+
+#menu {
+	height: 2em;
+	width: 100%;
+	font-family: 'Mochiy Pop One', sans-serif;
+	color: white;
+	font-size: 1.5em;
+	text-align: center;
+	background-color: #459140;
+	position: sticky;
+	top: 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline-block;
+	padding: 0 2em;
+}
+
+.menu:hover {
+	text-decoration: underline;
+}
+
+article {
+	margin: 0 auto;
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	height: 20em;
+	width: 80%;
+	font-size: 1.7em;
+}
+
+section {
+	margin: 1.5em;
+}
+
+#img2 {
+	width: 20em;
+	height: 20em;
+}
+
+footer {
+	text-align: center;
+	height: 3em;
+	width: 100%;
+	font-family: 'Mochiy Pop One', sans-serif;
+	color: white;
+	font-size: 1.5em;
+	background-color: #459140;
+}
+.icon {
+	margin-top: 0.5em;
+	margin-left: 0.5em;
+	width: 2em;
+	height: 2em;
+}
+#icone{
+	float: right;
+}
+#end {
+	margin-top: 0.5em;
+	float: left;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
